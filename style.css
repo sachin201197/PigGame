@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  color: rgb(233, 223, 223);
+  line-height: 1.5;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: linear-gradient(to top left, #010a0e, #85ebe9);
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+.player1--active {
+  background-color: rgb(43, 177, 215);
+  color: #010a0e;
+  border: none;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 5%;
+  left:25%;
+  border-radius: 1rem;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  width: 150px;
+  height:350px
+  
+}
+.player2--active {
+  background-color: rgb(152, 213, 213);
+  color: #010a0e;
+  text-align: center;
+  border: none
+  margin : 0;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+  border-radius: 1rem;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  width: 150px;
+  height:350px;
+}
+.newGame{
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.6);;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    padding: 1rem;
+
+}
+
+.newGame:active{
+  background-color: #d3dbd3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
+}
+.hold{
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.6);;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    padding: 1rem;
+}
+.hold:active{
+  background-color: #d3dbd3;
+  transform: translateY(1px)
+}
+.roll{
+
+   display: inline-block;
+   box-shadow: 0 5px #666;
+   border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.6);;
+    position: absolute;
+    top: 70%;
+    left: 44%;
+
+}
+
+.roll:active{
+  background-color: #d3dbd3;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px)
+}
+.winner{
+ color: black;
+ position: absolute;
+ top: 10%;
+ left: 44%;
+}
+h4{
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.6);;
+    position: absolute;
+    top: 56%;
+    left: 46%;
+    padding: 1rem;
+}
+h2{
+    color: beige;
+}
+
+.switch1{
+  background-color: rgb(95, 214, 244);
+}
+
+.switch2{
+  background-color: rgb(200, 227, 232);
+}
