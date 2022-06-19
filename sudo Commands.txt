@@ -1,0 +1,12 @@
+# Sudo login 
+  Sudo su 
+
+# Su login and need to enter password
+  Su -
+
+#Copy from shared folder to VM
+  sudo mount -t vboxsf 'from folder' 'to folder'
+
+#To copy file content
+  sudo cp 'file Name' 
+
