@@ -1,0 +1,24 @@
+# To clone git project 
+Git Clone "Https//Git bub...."
+
+# To Check out 
+Git checkout "Branch name"
+
+If branch not present 
+
+Git checkout -b "New branch name"
+
+#To Pull updated project 
+Git pull
+
+#To Commit and push
+Git Commit
+# To insert name in Command promt need to click "i"
+# Enter comminting comment then below push
+Git Push
+
+#TO Save and Exit from Insert 
+ESC+:+ wq!
+
+#TO Exit from Loop with out save 
+ESC+:+q!  or CTRL+c
