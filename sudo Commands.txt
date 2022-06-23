@@ -10,3 +10,5 @@
 #To copy file content
   sudo cp 'file Name' 
 
+# DPKG order 
+
